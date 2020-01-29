@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="131401" started-at="2020-01-27T12:41:22Z" finished-at="2020-01-27T12:43:33Z">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="CreateCampaignTest.createOrg1()[pri:0, instance:com.training.scripts.CreateCampaignTest@5419f379]" name="createOrg1" class="com.training.scripts.CreateCampaignTest"/>
+        <method signature="CreateOrgTest.createOrg()[pri:0, instance:com.training.scripts.CreateOrgTest@4520ebad]" name="createOrg" class="com.training.scripts.CreateOrgTest"/>
+        <method signature="CreateProductTest.createProd()[pri:0, instance:com.training.scripts.CreateProductTest@58651fd0]" name="createProd" class="com.training.scripts.CreateProductTest"/>
+      </group> <!-- SmokeTest -->
+    </groups>
+    <test name="Test" duration-ms="131401" started-at="2020-01-27T12:41:22Z" finished-at="2020-01-27T12:43:33Z">
+      <class name="com.training.scripts.CreateProductTest">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.training.scripts.CreateProductTest@58651fd0]" name="configBC" is-config="true" duration-ms="4300" started-at="2020-01-27T18:11:22Z" finished-at="2020-01-27T18:11:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.training.scripts.CreateProductTest@58651fd0]" name="configBM" is-config="true" duration-ms="10140" started-at="2020-01-27T18:11:26Z" finished-at="2020-01-27T18:11:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="createProd()[pri:0, instance:com.training.scripts.CreateProductTest@58651fd0]" name="createProd" duration-ms="21836" started-at="2020-01-27T18:11:36Z" finished-at="2020-01-27T18:11:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProd -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.training.scripts.CreateProductTest@58651fd0]" name="configAM" is-config="true" duration-ms="2510" started-at="2020-01-27T18:11:58Z" finished-at="2020-01-27T18:12:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.training.scripts.CreateProductTest@58651fd0]" name="configAC" is-config="true" duration-ms="530" started-at="2020-01-27T18:12:01Z" finished-at="2020-01-27T18:12:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.training.scripts.CreateProductTest -->
+      <class name="com.training.scripts.CreateOrgTest">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.training.scripts.CreateOrgTest@4520ebad]" name="configBC" is-config="true" duration-ms="2759" started-at="2020-01-27T18:12:01Z" finished-at="2020-01-27T18:12:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.training.scripts.CreateOrgTest@4520ebad]" name="configBM" is-config="true" duration-ms="6176" started-at="2020-01-27T18:12:04Z" finished-at="2020-01-27T18:12:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="createOrg()[pri:0, instance:com.training.scripts.CreateOrgTest@4520ebad]" name="createOrg" duration-ms="32037" started-at="2020-01-27T18:12:10Z" finished-at="2020-01-27T18:12:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrg -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.training.scripts.CreateOrgTest@4520ebad]" name="configAM" is-config="true" duration-ms="2908" started-at="2020-01-27T18:12:42Z" finished-at="2020-01-27T18:12:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.training.scripts.CreateOrgTest@4520ebad]" name="configAC" is-config="true" duration-ms="1817" started-at="2020-01-27T18:12:45Z" finished-at="2020-01-27T18:12:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.training.scripts.CreateOrgTest -->
+      <class name="com.training.scripts.CreateCampaignTest">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.training.scripts.CreateCampaignTest@5419f379]" name="configBC" is-config="true" duration-ms="3910" started-at="2020-01-27T18:12:47Z" finished-at="2020-01-27T18:12:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.training.scripts.CreateCampaignTest@5419f379]" name="configBM" is-config="true" duration-ms="11439" started-at="2020-01-27T18:12:51Z" finished-at="2020-01-27T18:13:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="createOrg1()[pri:0, instance:com.training.scripts.CreateCampaignTest@5419f379]" name="createOrg1" duration-ms="18282" started-at="2020-01-27T18:13:02Z" finished-at="2020-01-27T18:13:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrg1 -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.training.scripts.CreateCampaignTest@5419f379]" name="configAM" is-config="true" duration-ms="10375" started-at="2020-01-27T18:13:21Z" finished-at="2020-01-27T18:13:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.training.scripts.CreateCampaignTest@5419f379]" name="configAC" is-config="true" duration-ms="2344" started-at="2020-01-27T18:13:31Z" finished-at="2020-01-27T18:13:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.training.scripts.CreateCampaignTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

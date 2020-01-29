@@ -1,0 +1,24 @@
+
+<suite name="Suite"  thread-count="3"  parallel='tests'>
+  <test name="Test1" >
+  
+    <classes>
+      <class name="com.training.scripts.CreateProductTest"/>
+     
+    </classes>
+  </test> 
+  
+  <test name="Test2" >
+    <classes>
+
+      <class name="com.training.scripts.CreateOrgTest"/>
+    </classes>
+  </test> 
+  
+  <test name="Test3" >
+  
+    <classes>
+      <class name="com.training.scripts.CreateCampaignTest"/>
+     </classes>
+     </test> 
+</suite> 

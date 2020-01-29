@@ -1,0 +1,18 @@
+
+<suite name="Suite">
+<groups>
+<run>
+<include name="SmokeTest"/>
+</run>
+</groups>
+  <test name="Test">
+    <classes>
+     <class name="com.training.scripts.CreateProductTest"/>
+     <class name="com.training.scripts.CreateOrgTest"/>
+     <class name="com.training.scripts.CreateCampaignTest"/>
+      
+      
+      
+    </classes>
+  </test> 
+</suite> 

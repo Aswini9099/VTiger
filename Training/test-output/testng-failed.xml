@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <groups>
+      <run>
+        <include name="SmokeTest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.training.scripts.CreateProductTest">
+        <methods>
+          <include name="configBM"/>
+          <include name="configAC"/>
+          <include name="configBC"/>
+          <include name="configAM"/>
+        </methods>
+      </class> <!-- com.training.scripts.CreateProductTest -->
+      <class name="com.training.scripts.CreateCampaignTest">
+        <methods>
+          <include name="createOrg1"/>
+        </methods>
+      </class> <!-- com.training.scripts.CreateCampaignTest -->
+      <class name="com.training.scripts.CreateOrgTest">
+        <methods>
+          <include name="createOrg"/>
+          <include name="configBM"/>
+          <include name="configBC"/>
+          <include name="configAM"/>
+        </methods>
+      </class> <!-- com.training.scripts.CreateOrgTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

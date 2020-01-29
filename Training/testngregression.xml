@@ -1,0 +1,16 @@
+
+<suite name="Suite">
+<groups>
+<run>
+<include name="RegressionTest"/>
+</run>
+</groups>
+  <test name="Test">
+    <classes>
+    
+    <class name="com.training.scripts.CreateProductTest"/>
+    <class name="com.training.scripts.CreateCampaignTest"/>
+    <class name="com.training.scripts.CreateOrgTest"/> 
+    </classes>
+  </test> 
+</suite> 
